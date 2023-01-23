@@ -97,6 +97,7 @@ export const App = () => {
             <a href='https://www.instagram.com/jesus_antonio97/'>Histagram</a>
             <br/>
             <a href='https://www.facebook.com/jesusantonio.rozozapata'>Facebook</a>
+            <br/>
             <a href='https://github.com/Jesusdebug'>github</a>
            </strong>
             <footer>
