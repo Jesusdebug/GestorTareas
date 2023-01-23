@@ -73,6 +73,9 @@ export const App = () => {
     
   return (
     <div className="Container mt-4">
+         <div className="btn btn-primary position-absolute top-10 start-50 mb-">
+            <button  style={{backgroundColor:'#0d6efd', color:'white'}}>JARZ Tech Solutions</button>
+        </div>
         <div className='row'>
             <div className='col-8 '>
                 <TodoList
@@ -90,18 +93,24 @@ export const App = () => {
                 setTodoEdit={setTodoEdit}
                 />
             </div>
-            <div className='text-center fw-semibold' style={{backgroundColor:'black',color:'white'}}>
-           <strong>
-            Mis redes
-            <br/> 
-            <a href='https://www.instagram.com/jesus_antonio97/'>Histagram</a>
-            <br/>
-            <a href='https://www.facebook.com/jesusantonio.rozozapata'>Facebook</a>
-            <br/>
-            <a href='https://github.com/Jesusdebug'>github</a>
-           </strong>
+            <div className='text-center fw-semibold position-absolute bottom-0 end-0' style={{backgroundColor:'black',color:'white'}}>
+                <strong>
+                    Mis redes
+                 <br/> 
+                 <a href='https://www.instagram.com/jesus_antonio97/'>Histagram</a>
+                 <br/>
+                 <a href='https://www.facebook.com/jesusantonio.rozozapata'>Facebook</a>
+                 <br/>
+                 <a href='https://github.com/Jesusdebug'>github</a>
+                </strong>
+                <br/>
+                <strong>
+                    Visita mi blog
+                    <br/>
+                    <a href='https://cms-blog-nu.vercel.app/'>Diario de mi código</a>
+                </strong>
             <footer>
-            Este es un proyecto que sé ira construyendo a la medida para la comunidad, se integrará a  los servicios de Google calendar, también sé ira mejorando la experiencia en la interfaz del usuario
+                 Este es un proyecto que sé ira construyendo a la medida para la comunidad, se integrará a  los servicios de Google calendar, también sé ira mejorando la experiencia en la interfaz del usuario
             </footer>
             </div>
         </div>
