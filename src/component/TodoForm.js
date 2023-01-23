@@ -57,7 +57,7 @@ const TodoForm = ({todoAdd,todoEdit,todoUpdate,setTodoEdit}) => {
         setError(null)
     }
   return (
-        <div>
+        <div className='container'>
             <h4 className='text-center display-4'>
                 {todoEdit?'Editar tarea':'Nueva tarea'}
             </h4>
