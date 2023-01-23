@@ -73,7 +73,7 @@ export const App = () => {
     
   return (
     <div className="Container mt-4">
-         <div className="btn btn-primary position-absolute top-10 start-50 mb-">
+         <div className="btn btn-primary position-relative top-10 start-50">
             <button  style={{backgroundColor:'#0d6efd', color:'white'}}>JARZ Tech Solutions</button>
         </div>
         <div className='row'>
@@ -93,7 +93,7 @@ export const App = () => {
                 setTodoEdit={setTodoEdit}
                 />
             </div>
-            <div className='text-center fw-semibold position-absolute bottom-0 end-0' style={{backgroundColor:'black',color:'white'}}>
+            <div className='text-center fw-semibold position-relative bottom-0 end-0' style={{backgroundColor:'black',color:'white'}}>
                 <strong>
                     Mis redes
                  <br/> 
